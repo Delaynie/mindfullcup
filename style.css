@@ -111,10 +111,21 @@
 
 .header
 
-.header-img
+.header-img {
+    height: 100vh;
+    width: auto;
+    background-image: url(/images/quino-al-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
 
 .header-text {
-    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    padding: 20% 5%;
+    font-size: 40px;
 }
 
 .footer {
