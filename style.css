@@ -10,3 +10,29 @@
     padding: 0;
     margin: 0;
 }
+
+/* Section classes */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    border: 2px solid black;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.header
+
+.header-img
+
+.header-text
+
+.footer {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
