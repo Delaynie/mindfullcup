@@ -155,5 +155,7 @@
 
 .header-img {
     height: 50vh;
+    width: auto;
+    background-image: url(/images/quino-al-unsplash.jpg);
 }
 }
