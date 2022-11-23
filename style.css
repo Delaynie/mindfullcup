@@ -15,24 +15,128 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    padding: 3%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
     border: 2px solid black;
+    font-size: 20px;
+}
+
+.nav-logo {
+    font-size: 35px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover {
+    color: grey;
+}
+
+.nav-items {
+    list-style-type: none;
+}
+.nav-items .item {
+    display: inline-block;
+    padding: 20px 10px;
 }
 
 .mobile-nav {
     display: none;
 }
 
+/* DROPDOWN MENU FOR MOBILE */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    overflow-x: hidden;
+    padding-top: 80px;
+    transition: 0.5s;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .dropbtn {
+    opacity: 1;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 1%;
+    background: transparent;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 2;
+    border: none;
+}
+
+  .trigger-menu img:hover {
+    transform: rotate(45deg);
+    transition: transform 0.4s;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  /* End of navigation styling */
+
 .header
 
 .header-img
 
-.header-text
+.header-text {
+    background-color: blue;
+}
 
 .footer {
     padding: 5%;
     display: flex;
     justify-content: center;
     border: 2px solid black;
+}
+
+/* -------- MEDIA QUERIES ---------- */
+
+@media (max-width:625px) {
+.mobile-hide {
+    display: none;
+}
+.mobile-nav {
+    display: block;
+}
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 4px;
+}
 }

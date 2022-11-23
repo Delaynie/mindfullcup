@@ -19,21 +19,42 @@
 
 <!-- Nav here -->
 <nav class="nav">
-    <div>
-        <a href="index.html">LOGO</a>
+    <div class="nav-logo">
+        <a href="#">LOGO</a>
     </div>
-    <div>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Contact</a>
-        <a href="">More</a>
-    </div>
+    <ul class="nav-items mobile-hide">
+        <li class="item">
+            <a href="">About</a>
+        </li>
+        <li class="item">
+            <a href="">Testimonials</a>
+        </li>
+        <li class="item">
+            <a href="">Services</a>
+        </li>
+        <li class="item">
+            <a href="">Contact</a>
+        </li>
+    </ul>
+    
 </nav>
 
 <!-- Mobile nav here -->
 
 <nav class="mobile-nav">
-
+    <button class="trigger-menu dropbtn no-border mobile-header" onclick="openNav()">
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>
+        </button>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#top" onclick="closeNav()">to the top</a>
+            <a href="#about" onclick="closeNav()">about</a>
+            <a href="#portfolio" onclick="closeNav()">testimonials</a>
+            <a href="#services" onclick="closeNav()">services</a>
+            <a href="#contact" onclick="closeNav()">contact</a>
+    </div>
 </nav>
 
 <!-- Header here -->
@@ -51,15 +72,17 @@
 
 </section>
 
-<!-- Testimonials -->
-
 <!-- About -->
 
-<!-- Promise -->
+<!-- Testimonials -->
 
-<!-- Blueprint -->
+<!-- Services -->
 
 <!-- Contact -->
+
+<!-- Promise (Could be with about) -->
+
+<!-- Blueprint (could be within FAQ or Services) -->
 
 <!-- FAQ -->
 
@@ -68,7 +91,7 @@
 
 <!-- Footer -->
 <section class="footer">
-    <p>Built with &hearts; by RadFox Design, LLC</p>
+    <p>Built with &hearts; by <a href="https://www.radfoxweb.com" target=blank>RadFox Design, LLC</p>
 </section>
 
 </body>
