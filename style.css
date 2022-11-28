@@ -177,6 +177,9 @@ body {
 }
 
 /* --------- Services --------- */
+.services {
+    background-color: lavender;
+}
 .services h1 {
     padding-top: 5%;
     padding-bottom: 5%;
