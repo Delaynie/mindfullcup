@@ -16,6 +16,19 @@ body {
     font-weight: 300;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-right {
+    margin-right: auto;
+}
+
+.flex-left {
+    margin-left: auto;
+}
+
 /* Fonts that you need to narrow down...
 font-family: 'League Script', cursive;
 font-family: 'Ms Madi', cursive;
@@ -155,6 +168,37 @@ league script
     font-family: 'ms madi', cursive;
 }
 
+/* --------- About section --------- */
+.about {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: row;
+}
+.about-img {
+    padding: 15%;
+}
+.about-text {
+    padding: 5%;
+    flex-wrap: wrap;
+}
+.about-text h2 {
+    text-align: center;
+}
+.about-text p {
+    text-align: left;
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+/* ------------------ */
+
+/* ------------------ */
+
+/* ------------------ */
+
+/* -------- Footer ---------- */
+
 .footer {
     padding: 5%;
     display: flex;
@@ -208,4 +252,10 @@ league script
     padding-top: 15%;
     font-size: 30px;
 }
+
+/* mobile about changes */
+.about {
+    flex-direction: column;
+}
+
 }
