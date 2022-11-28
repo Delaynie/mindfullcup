@@ -230,7 +230,7 @@ body {
 }
 
 .header {
-    height: 25vh;
+    height: 20vh;
 }
 
 .header-text {
@@ -238,7 +238,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 12%;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 /* mobile about changes */
