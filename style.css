@@ -175,11 +175,17 @@ league script
     flex-direction: row;
 }
 .about-img {
+    margin-left: 8%;
     padding: 15%;
     text-align: center;
+    border: 2px solid black;
 }
 .about-text {
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
     flex-wrap: wrap;
 }
 .about-text h2 {
@@ -187,9 +193,9 @@ league script
 }
 .about-text p {
     text-align: left;
-    padding-top: 3%;
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 /* ------------------ */
@@ -204,7 +210,6 @@ league script
     padding: 5%;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
     background-color: #fefff3;
     font-family: 'ms madi', cursive;
     font-size: 22px;
@@ -242,8 +247,7 @@ league script
 }
 
 .header-img {
-    height: 50vh;
-    width: auto;
+    height: 50px;
     background-position: bottom;
 }
 
@@ -252,7 +256,7 @@ league script
     display: flex;
     justify-content: center;
     padding-top: 15%;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /* mobile about changes */
@@ -262,8 +266,6 @@ league script
 
 .about-img {
     margin: auto;
-    height: 85vh;
-    width: auto;
     text-align: center;
 }
 
