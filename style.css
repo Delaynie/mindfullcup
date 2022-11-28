@@ -148,8 +148,6 @@ league script
 
   /* End of navigation styling */
 
-.header
-
 .header-img {
     height: 100vh;
     width: auto;
@@ -250,6 +248,9 @@ league script
     height: 50px;
     background-position: bottom;
 }
+.header {
+    height: 100px;
+}
 
 .header-text {
     color: white;
@@ -265,7 +266,9 @@ league script
 }
 
 .about-img {
-    margin: auto;
+    margin: none;
+    height: 300px;
+    width: auto;
     text-align: center;
 }
 
