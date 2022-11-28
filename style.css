@@ -11,6 +11,31 @@
     margin: 0;
 }
 
+body {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* Fonts that you need to narrow down...
+font-family: 'League Script', cursive;
+font-family: 'Ms Madi', cursive;
+font-family: 'Style Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lobster Two', cursive; maybe for titles
+
+Usuals for regular text, buttons, titles, etc:
+Roboto 300
+Montserrat 200 or 300
+Noto Sans 300
+
+Top fav handwriting fonts -- 
+Ms madi
+style script
+league script
+*/
+
 /* Section classes */
 
 .nav {
@@ -126,7 +151,8 @@
     justify-content: flex-end;
     text-align: left;
     padding: 20% 5%;
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'ms madi', cursive;
 }
 
 .footer {
@@ -135,7 +161,24 @@
     justify-content: center;
     border: 2px solid black;
     background-color: #fefff3;
+    font-family: 'ms madi', cursive;
+    font-size: 22px;
 }
+.footer p {
+    border-top: 1px solid black;
+}
+.footer-a {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+    .footer-a:hover {
+        color: rgb(63, 63, 63);
+        border-bottom: 1px solid rgb(63, 63, 63);
+    }
 
 /* -------- MEDIA QUERIES ---------- */
 
