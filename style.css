@@ -176,7 +176,20 @@ body {
     padding-left: 5%;
 }
 
-/* ------------------ */
+/* --------- Services --------- */
+.services h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.coaching {
+    flex-direction: row;
+}
+.service-left {
+    margin-right: auto;
+}
+.service-right {
+    margin-left: auto;
+}
 
 /* ------------------ */
 
@@ -241,7 +254,7 @@ body {
     font-size: 60px;
 }
 
-/* mobile about changes */
+/* mobile about */
 .about {
     flex-direction: column;
 }
@@ -256,6 +269,15 @@ body {
 
 .about-text h2 {
     padding-top: 5%;
+}
+
+/* mobile services */
+.coaching {
+    flex-direction: column;
+}
+.service-left, .service-right {
+    margin: auto;
+    padding: 5%;
 }
 
 }
