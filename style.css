@@ -176,6 +176,7 @@ league script
 }
 .about-img {
     padding: 15%;
+    text-align: center;
 }
 .about-text {
     padding: 5%;
@@ -241,8 +242,9 @@ league script
 }
 
 .header-img {
-    height: 200px;
-    background-image: none;
+    height: 50vh;
+    width: auto;
+    background-position: bottom;
 }
 
 .header-text {
@@ -256,6 +258,13 @@ league script
 /* mobile about changes */
 .about {
     flex-direction: column;
+}
+
+.about-img {
+    margin: auto;
+    height: 85vh;
+    width: auto;
+    text-align: center;
 }
 
 }
