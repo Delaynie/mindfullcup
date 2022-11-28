@@ -29,26 +29,6 @@ body {
     margin-left: auto;
 }
 
-/* Fonts that you need to narrow down...
-font-family: 'League Script', cursive;
-font-family: 'Ms Madi', cursive;
-font-family: 'Style Script', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Lobster Two', cursive; maybe for titles
-
-Usuals for regular text, buttons, titles, etc:
-Roboto 300
-Montserrat 200 or 300
-Noto Sans 300
-
-Top fav handwriting fonts -- 
-Ms madi
-style script
-league script
-*/
-
 /* Section classes */
 
 .nav {
@@ -149,7 +129,7 @@ league script
   /* End of navigation styling */
 
 .header-img {
-    height: 100vh;
+    height: 90vh;
     width: auto;
     background-image: url(/images/quino-al-unsplash.jpg);
     background-position: bottom;
@@ -245,18 +225,19 @@ league script
 }
 
 .header-img {
-    height: 50px;
+    height: 200px;
     background-position: bottom;
 }
+
 .header {
-    height: 100px;
+    height: 25vh;
 }
 
 .header-text {
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 15%;
+    padding-top: 12%;
     font-size: 40px;
 }
 
@@ -266,10 +247,15 @@ league script
 }
 
 .about-img {
-    margin: none;
+    margin: auto;
     height: 300px;
-    width: auto;
+    width: 200px;
     text-align: center;
+    background-color: white;
+}
+
+.about-text h2 {
+    padding-top: 5%;
 }
 
 }
