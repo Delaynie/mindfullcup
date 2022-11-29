@@ -34,6 +34,13 @@ body {
     color: #fefff3;
 }
 
+.line {
+    background-color: rgb(63, 63, 63);
+    margin: auto;
+    width: 75%;
+    height: 1px;
+}
+
 /* Section classes */
 
 .nav {
@@ -188,8 +195,9 @@ body {
 }
 
 /* --------- Services --------- */
+
 .fade {
-    background-image: linear-gradient(rgba(130, 41, 165, 0.466), rgb(255, 253, 238));
+    background-image: linear-gradient(rgba(130, 41, 165, 0.466), rgb(255, 253, 238), rgb(252, 250, 239));
 }
 .services {
     background-color: rgba(53, 36, 61, 0.267);
@@ -258,6 +266,8 @@ body {
 .contact {
     /*background-image: linear-gradient(rgb(255, 255, 240), rgb(94, 62, 94));*/
     background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.459));
+    background-image: linear-gradient(rgb(252, 250, 239), rgb(255, 253, 238), rgba(130, 41, 165, 0.527));
+
 }
 
 
@@ -300,8 +310,7 @@ body {
     background-color: #fefff3;
     font-family: 'ms madi', cursive;
     font-size: 22px;
-    background-image: linear-gradient(rgba(79, 9, 192, 0.651), rgb(255, 253, 238));
-
+    background-image: linear-gradient(rgba(81, 15, 187, 0.568), rgb(255, 253, 238), rgb(255, 253, 238));
 }
 .footer p {
     border-top: 1px solid black;
