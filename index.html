@@ -17,7 +17,7 @@
         <!-- css pages -->
         <link href="style.css" rel="stylesheet">
     </head>
-<body>
+<body id="top">
 <!-- 11-18-22 The following is the list of sections/elements that 
         will be needed. Not necessarily in order. -->
 
@@ -28,16 +28,16 @@
     </div>
     <ul class="nav-items mobile-hide">
         <li class="item">
-            <a href="">About</a>
+            <a href="#about">About</a>
         </li>
         <li class="item">
-            <a href="">Testimonials</a>
+            <a href="#reviews">Testimonials</a>
         </li>
         <li class="item">
-            <a href="">Services</a>
+            <a href="#services">Services</a>
         </li>
         <li class="item">
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
         </li>
     </ul>
     
@@ -55,7 +55,7 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#top" onclick="closeNav()">to the top</a>
             <a href="#about" onclick="closeNav()">about</a>
-            <a href="#portfolio" onclick="closeNav()">testimonials</a>
+            <a href="#reviews" onclick="closeNav()">testimonials</a>
             <a href="#services" onclick="closeNav()">services</a>
             <a href="#contact" onclick="closeNav()">contact</a>
     </div>
@@ -69,7 +69,7 @@
 </section>
 
 <!-- About -->
-<section class="flex about">
+<section class="flex about" id="about">
     <div class="flex-left about-img">
         <p>img here</p>
     </div>
@@ -82,7 +82,7 @@
 </section>
 
 <!-- Services -->
-<section class="services">
+<section class="services" id="services">
     <h1 class="flex">Services</h1>
     <div class="flex coaching">
         <div class="flex-left service-left">
@@ -109,7 +109,7 @@
 </section>
 
 <!-- Testimonials -->
-<section class="flex">
+<section class="flex" id="reviews">
     <div class="Reviews">
         <h1>Reviews</h1>
         <div>
@@ -128,7 +128,7 @@
 <!-- Contact/Book 
     Will need a form.
 -->
-<section>
+<section id="contact">
     <h1>Contact / Booking Section</h1>
 </section>
 
