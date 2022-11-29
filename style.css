@@ -29,6 +29,11 @@ body {
     margin-left: auto;
 }
 
+.purple-bkgd {
+    background-color: rgb(94, 62, 94);
+    color: #fefff3;
+}
+
 /* Section classes */
 
 .nav {
@@ -65,9 +70,7 @@ body {
     display: none;
 }
 
-/* DROPDOWN MENU FOR MOBILE */
-
-/* The side navigation menu */
+/* The mobile dropdown & side navigation menu */
 .sidenav {
     height: 100%;
     width: 0;
@@ -205,7 +208,24 @@ body {
     list-style-type: none;
 }
 
-/* ------------------ */
+/* --------- Coming Soon --------- */
+.coming-soon {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    flex-direction: column;
+}
+.coming-soon h1 {
+    padding-bottom: 1%;
+    font-size: 32px;
+}
+.coming-soon p {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
 
 /* ------------------ */
 
@@ -250,7 +270,7 @@ body {
 .menu-line {
     width: 20px;
     height: 3px;
-    background-color: black;
+    background-color: rgb(63, 63, 63);
     margin-bottom: 4px;
 }
 
@@ -269,7 +289,7 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 14%;
+    padding-top: 12%;
     font-size: 60px;
 }
 
