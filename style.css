@@ -160,12 +160,14 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
     flex-direction: row;
+    background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.459));
+
 }
 .about-img {
     margin-left: 8%;
     padding: 15%;
     text-align: center;
-    border: 2px solid black;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
 }
 .about-text {
     padding-left: 5%;
@@ -186,6 +188,9 @@ body {
 }
 
 /* --------- Services --------- */
+.fade {
+    background-image: linear-gradient(rgba(130, 41, 165, 0.466), rgb(255, 253, 238));
+}
 .services {
     background-color: rgba(53, 36, 61, 0.267);
     background-image: url('/dollar-gill-unsplash.jpg'); /*url('/marek-piwnicki-unsplash.jpg');*/
@@ -221,7 +226,6 @@ body {
     background-color: /*rgb(241, 241, 250);*/ rgba(246, 230, 250, 0.733);
     color: black;
     border-radius: 5px;
-    /*border: 2px solid rgb(229, 229, 243);*/
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
 }
   
@@ -248,6 +252,12 @@ body {
     padding-bottom: 3%;
     margin: auto;
     flex-wrap: wrap;
+}
+
+/* contact */
+.contact {
+    /*background-image: linear-gradient(rgb(255, 255, 240), rgb(94, 62, 94));*/
+    background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.459));
 }
 
 
@@ -290,6 +300,8 @@ body {
     background-color: #fefff3;
     font-family: 'ms madi', cursive;
     font-size: 22px;
+    background-image: linear-gradient(rgba(79, 9, 192, 0.651), rgb(255, 253, 238));
+
 }
 .footer p {
     border-top: 1px solid black;
