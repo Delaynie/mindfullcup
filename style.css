@@ -500,7 +500,7 @@ body {
     width: 80%;
     max-width: 80%;
   }
-  form .button-solid {
+  .form .button-solid {
     border: none;
     width: 100%;
   }
