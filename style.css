@@ -286,7 +286,7 @@ body {
   input:focus,
   textarea:focus {
     outline: none;
-    border: 2px solid #e67e22;
+    border: 2px solid lavenderblush;
   }
   
   textarea {
@@ -454,6 +454,40 @@ body {
     padding-bottom: 5%;
     margin-bottom: 5%;
 }
+
+/* Coming Soon Form */
+
+
+.email-signup input {
+    width: 80%;
+    max-width: 80%;
+  }
+  form .button-solid {
+    border: none;
+    width: 100%;
+  }
+  .form {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+  }
+  /*.form p {
+    padding-left: 8px;
+    padding-right: 8px;
+  } probably not needed ----- */
+
+  .contact {
+    text-align: center;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 /* mobile promise */
 .promise {
