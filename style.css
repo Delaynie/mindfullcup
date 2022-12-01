@@ -502,7 +502,7 @@ body {
   }
 
   .button-solid {
-    border: none;
+    border: 1px solid green;
     width: 250px;
   }
 
@@ -521,8 +521,8 @@ body {
   }
 
   .coming-soon {
-      padding-top: 6%;
-      padding-bottom: 6%;
+      padding-top: 10%;
+      padding-bottom: 10%;
   }
 
 
