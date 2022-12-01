@@ -497,13 +497,13 @@ body {
 
 
   .email-signup input {
-    width: 200px;
+    width: 250px;
     /*max-width: 80%;*/
   }
 
   .button-solid {
     border: none;
-    width: 200px;
+    width: 250px;
   }
 
   .contact {
