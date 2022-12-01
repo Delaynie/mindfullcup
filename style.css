@@ -201,7 +201,7 @@ body {
 }
 .services {
     background-color: rgba(53, 36, 61, 0.267);
-    background-image: url('/dollar-gill-unsplash.jpg'); /*url('/marek-piwnicki-unsplash.jpg');*/
+    background-image: url('/images2/dollar-gill-unsplash.jpg'); /*url('/marek-piwnicki-unsplash.jpg');*/
     background-size: cover;
     background-position: auto;
     background-blend-mode: overlay;
@@ -279,7 +279,7 @@ body {
     background-blend-mode: color-dodge;
     height: 75vh;*/
     background-color: rgba(51, 50, 51, 0.397);
-    background-image: url('/marek-piwnicki-unsplash.jpg'); /*url('/marek-piwnicki-unsplash.jpg');*/
+    background-image: url('/images2/marek-piwnicki-unsplash.jpg'); /*url('/marek-piwnicki-unsplash.jpg');*/
     background-size: cover;/*
     background-position: bottom;
     background-blend-mode: multiply;*/
