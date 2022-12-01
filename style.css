@@ -493,14 +493,15 @@ body {
     margin-bottom: 5%;
 }
 
-/* Coming Soon Form */
+/* Mobile Coming Soon Form */
 
 
-.email-signup input {
+  .email-signup input {
     width: 80%;
     max-width: 80%;
   }
-  .form .button-solid {
+
+  .button-solid {
     border: none;
     width: 100%;
   }
