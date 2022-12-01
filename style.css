@@ -247,6 +247,22 @@ body {
       box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.2), 0 30px 20px -5px rgba(0, 0, 0, 0.2);
   }
 
+/* --------- Reviews ----------*/
+
+.reviews {
+    background-color: #fefff3;
+    color: rgb(63, 63, 63);
+    padding-top: 8%;
+    padding-bottom: 8%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* --------- Coming Soon --------- */
 .coming-soon {
     padding-top: 6%;
