@@ -584,12 +584,11 @@ input {
 }
 .welcome h1 {
     margin: auto;
-    padding: 5%;
     text-align: center;
 }
 .welcome p {
     margin: auto;
-    padding: 3%;
+    padding-bottom: 10%;
 }
 
 /* mobile about */
@@ -623,6 +622,14 @@ input {
     background-position: right;
     height: auto;
     color: rgb(63, 63, 63);
+}
+
+.servicePaddingH {
+    padding-top: 15%;
+}
+
+.servicePaddingP {
+    padding-bottom: 15%;
 }
 
 /* Mobile cards */
