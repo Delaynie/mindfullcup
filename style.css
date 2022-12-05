@@ -266,15 +266,50 @@ body {
 
 /* --------- Reviews ----------*/
 
-.reviews {
+.reviews-1 {
     background-color: #fefff3;
     color: rgb(63, 63, 63);
-    padding-top: 8%;
-    padding-bottom: 8%;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+    
+.reviews-2 {
+    background-color: #fefff3;
+    color: rgb(63, 63, 63);
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3%;
 }
+    
+    
+
+.reviews {
+    flex-direction: column;
+    background-color: #fefff3;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+/*
+.reviewPhoto1 {
+    margin-left: 10%;
+}
+.reviewPhoto2 {
+    margin-left: 80%;
+}*/
+
+.profile-small {
+    max-width: 6rem;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
 .side-padding {
     padding-left: 10%;
     padding-right: 10%;
