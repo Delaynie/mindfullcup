@@ -674,7 +674,7 @@ input {
 
   textarea {
       width: 280px;
-      max-width: 300px;
+      max-width: 280px;
   }
 
   .button-solid, .submitBtn {
