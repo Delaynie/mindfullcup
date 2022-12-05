@@ -672,10 +672,9 @@ input {
     width: 250px;
   }
 
-  #contact .email-signup textarea {
+  textarea {
       width: 280px;
-      padding-left: 1%;
-      padding-right: 1%;
+      max-width: 300px;
   }
 
   .button-solid, .submitBtn {
