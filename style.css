@@ -765,6 +765,15 @@ input {
     align-items: center;
   }
 
+  .formH2 {
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+
+  .checkmark {
+      right: 50%;
+  }
+
   .coming-soon {
       padding-top: 10%;
       padding-bottom: 12%;
