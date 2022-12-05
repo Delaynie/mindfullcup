@@ -50,7 +50,7 @@ body {
 }
 
 .fade {
-    background-image: linear-gradient(rgb(255, 253, 238), rgb(255, 253, 238), rgba(80, 2, 170, 0.603));
+    background-image: linear-gradient(rgb(255, 253, 238), rgba(80, 2, 170, 0.342), rgba(80, 2, 170, 0.603));
     /*background-image: linear-gradient(rgb(255, 253, 238), rgb(252, 250, 239), rgba(130, 41, 165, 0.466));*/
 }
 
