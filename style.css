@@ -506,7 +506,7 @@ input {
 
 /* --------- checkbox css ---------- */
 .container {
-    display: block;
+    display: inline-block;
     position: relative;
     text-align: center;
     margin-bottom: 25px;
@@ -517,6 +517,7 @@ input {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    width: 200px;
   }
   
   /* Hide the browser's default checkbox */
@@ -530,12 +531,13 @@ input {
   .checkmark {
     position: absolute;
     top: 100%;
-    right: 49%;
+    right: 44%;
     height: 30px;
     width: 30px;
     background-color: #fefff3;
     margin-top: 1%;
     margin-bottom: 1%;
+    text-align: center;
   }
   
   .container:hover input ~ .checkmark {
@@ -555,7 +557,7 @@ input {
   
   /* checkmark when checked */
   .container input:checked ~ .checkmark:after {
-    display: block;
+    display: inline-block;
   }
   
   /* checkmark/indicator */
@@ -569,6 +571,10 @@ input {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  .container label {
+      margin-bottom: 5%;
   }
 
 /* --------- Promise --------- */
