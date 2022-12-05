@@ -557,7 +557,7 @@ input {
 
 /* -------- MEDIA QUERIES ---------- */
 
-@media (max-width:625px) {
+@media (max-width:700px) {
 
 /* mobile nav menu */
 
@@ -674,6 +674,8 @@ input {
 
   #contact .email-signup textarea {
       width: 280px;
+      padding-left: 1%;
+      padding-right: 1%;
   }
 
   .button-solid, .submitBtn {
