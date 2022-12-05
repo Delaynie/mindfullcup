@@ -517,7 +517,7 @@ input {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 200px;
+    max-width: 200px;
   }
   
   /* Hide the browser's default checkbox */
@@ -772,8 +772,8 @@ input {
   }
 
   .formH2 {
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 2%;
+      padding-right: 2%;
   }
 
   .checkmark {
