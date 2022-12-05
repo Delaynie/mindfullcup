@@ -457,9 +457,8 @@ body {
     background-color: #fefff3;
     font-family: 'ms madi', cursive;
     font-size: 22px;
-    background-image: linear-gradient(rgba(80, 2, 170, 0.603), rgb(255, 253, 238), rgb(255, 253, 238));
-    background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.137));
-
+    background-image: linear-gradient(rgba(80, 2, 170, 0.336), rgb(255, 253, 238), rgb(255, 253, 238));
+    
 }
 .footer p {
     border-top: 1px solid black;
