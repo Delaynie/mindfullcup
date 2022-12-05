@@ -673,8 +673,9 @@ input {
   }
 
   textarea {
-      width: 260px;
-      max-width: 260px;
+      width: 255px;
+      max-width: 255px;
+      padding: 2%;
   }
 
   .button-solid, .submitBtn {
