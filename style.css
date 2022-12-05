@@ -226,7 +226,6 @@ body {
     background-size: cover;
     background-position: auto;
     background-blend-mode: overlay;
-    height: auto;
     padding: 10% 0;
     color: rgb(63, 63, 63);
 }
@@ -413,16 +412,9 @@ body {
 
 /* --------- Promise --------- */
 .promise {
-    /*background-color: lavender;
-    background-image: url('/engin-akyurt-Hlkuojv-unsplash.jpg');
-    background-size: cover;
-    background-blend-mode: color-dodge;
-    height: 75vh;*/
     background-color: rgba(51, 50, 51, 0.397);
     background-image: url('/images2/marek-piwnicki-unsplash.jpg'); /*url('/marek-piwnicki-unsplash.jpg');*/
-    background-size: cover;/*
-    background-position: bottom;
-    background-blend-mode: multiply;*/
+    background-size: cover;
     height: 80vh;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -532,7 +524,7 @@ body {
 }
 .services {
     background-position: right;
-    height: 350px;
+    height: auto;
 }
 
 /* Mobile cards */
