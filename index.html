@@ -69,33 +69,15 @@
 <!-- Header here -->
 <section class="header">
     <div class="header-img header-text">
-        <p>Remy Elshiraf, <br>Life Coach</p>
+        <p>Welcoming Message</p>
     </div>
 </section>
 
-<!-- About -->
-<div class="welcome centered">
-    <h1 style="padding: 6% 0 0 2%;color:rgb(63,63,63);">Welcome to the Mindfull Cup</h1>
-    <p class="msmadi">Short welcoming message and introduction</p>
-</div>
-
-<section class="flex about" id="about">
-    
-    <div class="flex-left about-img">
-        <p>headshot image here</p>
-    </div>
-    <div class="flex-right about-text">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dolore repellendus? Animi delectus vel, ut corrupti facilis sint minima placeat illo natus est voluptas dicta, voluptatem nihil sit? Similique, quasi?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dolore repellendus? Animi delectus vel, ut corrupti facilis sint minima placeat illo natus est voluptas dicta, voluptatem nihil sit? Similique, quasi?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dolore repellendus? Animi delectus vel, ut corrupti facilis sint minima placeat illo natus est voluptas dicta, voluptatem nihil sit? Similique, quasi?</p>
-    </div>
-</section>
 
 <!-- Services -->
-<div class="fadeService">
-<div class="line flex"></div>
-<h1 class="flex" style="padding: 8% 0 0 0;">Services</h1>
+<div style="color: rgb(63, 63, 63);background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.137));">
+<div class="flex"></div>
+<h1 class="flex" style="padding: 4% 0 0 0;">My Services</h1>
 <p class="flex msmadi" style="padding-bottom: 5%;font-size: 30px;">Short heading about services!</p>
 </div>
 <section class="services" id="services">
@@ -163,7 +145,7 @@
 <!-- Coming Soon Area - since she is in the middle of getting certified for
     sound healing. Inquire or request information once that service is ready?-->
 
-    <section class="flex coming-soon purple-bkgd centered form">
+    <section class="flex coming-soon purple-bkgd centered form" id="coming-soon">
         <h1 class="msmadi"> Coming Soon </h1>
         <p>Little info on what's to come and to get people excited! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, quae reiciendis? Assumenda blanditiis dignissimos quo quam ea beatae sint laudantium voluptas. Sapiente tenetur sit voluptatibus sed unde dicta provident voluptates?</p>
         
@@ -178,14 +160,43 @@
 
     </section>
 
+    <!-- About -->
+<section class="flex about" id="about">
+    
+    <div class="flex-left about-img">
+        <p>headshot image here</p>
+    </div>
+    <div class="flex-right about-text">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dolore repellendus? Animi delectus vel, ut corrupti facilis sint minima placeat illo natus est voluptas dicta, voluptatem nihil sit? Similique, quasi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dolore repellendus? Animi delectus vel, ut corrupti facilis sint minima placeat illo natus est voluptas dicta, voluptatem nihil sit? Similique, quasi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dolore repellendus? Animi delectus vel, ut corrupti facilis sint minima placeat illo natus est voluptas dicta, voluptatem nihil sit? Similique, quasi?</p>
+    </div>
+</section>
+
 <!-- Contact/Book 
     Will need a form.
 -->
-    <section id="contact" class="contact">
-        <h1 style="padding-top:5%;text-align:center">Contact / Booking Section</h1>
-        <p class="msmadi" style="font-size:30px;padding-bottom: 5%;text-align:center;">Lorem ipsem dolor sit amet consectetur!</p>
+    <section id="contact" class="contact" style="margin-bottom: 10%;">
+        <h1 style="padding-top:5%;text-align:center">Send an inquiry today!</h1>
+        <p class="msmadi" style="font-size:30px;text-align:center;">Fill out the form below to get started</p>
+        <h1 class="centered" style="padding-bottom: 5%;">&downarrow;</h1><br>   
     
+        <!-- Form for booking -->
+            <fieldset>
+                <form class="email-signup centered purple-bkgd form">
+                    <div style="padding-top: 5%;"></div>
+                    <input type="text" name="name" placeholder="Your Name" required="yes"><br>
+                    <input type="email" name="_replyto" placeholder="Your Email" required="yes"><br>
+                    <!-- add service option here -->
+                    <textarea placeholder="Optional Message"></textarea><br>
+                    <a href="#" onclick="$(this).closest('form').submit()" class="submitBtn">Submit</a>
+                    <h1 class="msmadi" style="font-size: 35px;">I can't wait to meet you!</h1>
+
+                </form>
+            </fieldset>
         
+    
     </section>
 
 <!-- Promise (Could be with about) -->
@@ -198,7 +209,7 @@
         </p> <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia voluptate qui dolor, nostrum tempore ab commodi iusto? Quo enim repudiandae tempore similique accusamus quod impedit numquam assumenda velit sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque magni commodi, libero dignissimos dolore repudiandae modi distinctio et sit dolorem ipsam eligendi. Cum illum, officia ea iure hic vel odio?
         </p> <br>
-        <p>This excerpt was taken from ENTERNAMEHERE with permission, <br>and I consider it my promise to you.</p>
+        <p>This excerpt was taken from Enter Name Here with permission, <br>and I consider it my promise to you.</p>
         </div>
     
 </section>

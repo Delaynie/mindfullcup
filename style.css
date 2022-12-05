@@ -1,11 +1,3 @@
-/* What to consider when styling the page...
-    Purple is her signature color.
-    Words/feelings that the website should evoke out of it's users:
-        Empowering, overcoming, transformational.
-        Self discovery, rebirth, self acceptance.
-        Love, compassion, kindness.
-        This is a safe, empowering, gentle space.
-*/
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +6,7 @@
 body {
     font-family: 'roboto', sans-serif;
     font-weight: 300;
+    background-color: #fefff3;
 }
 
 .centered {
@@ -50,7 +43,7 @@ body {
 }
 
 .fade {
-    background-image: linear-gradient(rgb(255, 253, 238), rgba(80, 2, 170, 0.342), rgba(80, 2, 170, 0.603));
+    background-image: linear-gradient(rgb(255, 253, 238), rgb(255, 253, 238), rgba(80, 2, 170, 0.342), rgba(80, 2, 170, 0.603));
     /*background-image: linear-gradient(rgb(255, 253, 238), rgb(252, 250, 239), rgba(130, 41, 165, 0.466));*/
 }
 
@@ -376,7 +369,7 @@ body {
     padding-bottom: 8%;
   }
 
-  input, textarea {
+input {
     border: 1px solid #fefff3;
     border-radius: 5px;
     display: inline-block;
@@ -384,15 +377,10 @@ body {
     font-size: 1rem;
   }
   
-  input:focus,
-  textarea:focus {
+  input:focus {
     outline: none;
     border: 2px solid lavenderblush;
     border-radius: 5px;
-  }
-  
-  textarea {
-    min-height: 7em;
   }
   
   form [class*=col-] {
@@ -427,6 +415,66 @@ body {
 /* contact */
 .contact {
    background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.137));
+   color: rgb(63, 63, 63);
+}
+
+/* Contact form for contact section */
+
+#contact input {
+    border: 1px solid #fefff3;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+  textarea {
+    border: 1px solid #fefff3;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 2.2%;
+    width: 30%;
+    font-size: 1rem;
+    max-width: 250px;
+    padding: 1%;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);  
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: green;
+    border: 2px solid green;
+    border-radius: 5px;
+  }
+  
+  #contact form [class*=col-] {
+    padding: 5px;
+  }
+  
+  #contact .email-signup input, .submitBtn {
+    width: 30%;
+    max-width: 250px;
+    margin-top:1rem;
+    padding: 0.8em;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  .submitBtn {
+      background-color: green;
+      margin-bottom: 2%;
+      margin-top: 3%;
+      text-decoration: none;
+      color: #fefff3;
+  }
+
+  #contact .email-signup input:hover, .submitBtn:hover, textarea:hover {
+    transform: translateY(-3px);
+    transition: .2s ease-in-out;
+    box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.2), 0 30px 20px -5px rgba(0, 0, 0, 0.2);
 }
 
 
