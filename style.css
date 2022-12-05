@@ -485,7 +485,7 @@ input {
 
   .submitBtn {
       background-color: green;
-      margin-bottom: 2%;
+      margin-bottom: 3%;
       margin-top: 3%;
       text-decoration: none;
       color: #fefff3;
@@ -648,7 +648,7 @@ input {
 /* Mobile Coming Soon Form */
 
 
-  .email-signup input {
+  .email-signup input, textarea {
     width: 250px;
     /*max-width: 80%;*/
   }
@@ -665,7 +665,6 @@ input {
     text-align: center;
   }
   .form {
-/*    margin-top: 2%;*/
     margin-bottom: 3%;
     padding-top: 5%;
     padding-bottom: 5%;
