@@ -584,13 +584,14 @@ input {
     padding-bottom: 18%;
 }
 .welcome h1 {
-    margin: auto;
+    margin: 0;
     padding: 5%;
     text-align: center;
 }
 .welcome p {
     justify-content: center;
-    margin: auto;
+    margin: 0;
+    padding: 5%;
 }
 
 /* mobile about */
