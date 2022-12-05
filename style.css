@@ -648,8 +648,12 @@ input {
 /* Mobile Coming Soon Form */
 
 
-  .email-signup input, #contact .email-signup input, textarea, .submitBtn {
+  .email-signup input, #contact .email-signup input, .submitBtn {
     width: 250px;
+  }
+
+  #contact textarea {
+      width: 250px;
   }
 
   .button-solid {
