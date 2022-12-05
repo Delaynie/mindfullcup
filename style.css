@@ -227,7 +227,7 @@ body {
     background-position: auto;
     background-blend-mode: overlay;
     height: auto;
-    padding: 5% 0;
+    padding: 10% 0;
     color: rgb(63, 63, 63);
 }
 .services h1 {
@@ -253,6 +253,7 @@ body {
 /* coach cards */
 .card {
     padding: 5%;
+    line-height: 1.6rem;
     background-color: /*rgb(241, 241, 250);*/ rgba(246, 230, 250, 0.733);
     color: black;
     border-radius: 5px;
@@ -264,6 +265,25 @@ body {
       transition: 1s ease-in-out;
       box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.2), 0 30px 20px -5px rgba(0, 0, 0, 0.2);
   }
+
+.bookBtn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    border-radius: 5px;
+    width: 125px;
+    height: 26px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.938); /*transparent rgba(246, 230, 250, 0.733)*/
+    color: #fefff3;
+    margin-top: 3%;
+}
+    .bookBtn:hover {
+        background-color: rgb(2, 158, 2);
+    }
 
 /* --------- Reviews ----------*/
 
@@ -517,7 +537,7 @@ body {
 
 /* Mobile cards */
 .card {
-    padding-bottom: 5%;
+    padding-bottom: 6%;
     margin-bottom: 5%;
 }
 
