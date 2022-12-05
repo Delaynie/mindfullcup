@@ -486,16 +486,16 @@ body {
     background-position: bottom;
 }
 
-.header {
+/*.header {
     height: 26vh;
-}
+}*/
 
 .header-text {
     color: white;
     display: flex;
     justify-content: center;
     padding-top: 10%;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 /* mobile about */
