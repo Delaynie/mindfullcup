@@ -49,6 +49,11 @@ body {
     background-image: linear-gradient(rgba(80, 2, 170, 0.603), rgb(255, 253, 238), rgb(255, 253, 238));
 }
 
+.fade {
+    background-image: linear-gradient(rgb(255, 253, 238), rgb(255, 253, 238, rgba(80, 2, 170, 0.603)));
+
+}
+
 /* SCROLL ANIMATION */
 
 .aos {
