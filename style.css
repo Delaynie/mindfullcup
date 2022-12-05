@@ -319,6 +319,7 @@ body {
 
 .reviews-1 {
     background-color: #fefff3;
+    background-color: transparent;
     color: rgb(63, 63, 63);
     flex-direction: row;
     justify-content: flex-start;
@@ -329,6 +330,7 @@ body {
     
 .reviews-2 {
     background-color: #fefff3;
+    background-color: transparent;
     color: rgb(63, 63, 63);
     flex-direction: row;
     justify-content: center;
@@ -340,10 +342,13 @@ body {
 
 .reviews {
     flex-direction: column;
-    background-color: #fefff3;
-    background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.137));
+    background-color: transparent;
     width: 100%;
     color: rgb(63, 63, 63);
+}
+
+.fadeReviews {
+    background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.356));
 }
 
 .profile-small {
