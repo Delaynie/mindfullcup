@@ -228,6 +228,7 @@ body {
     background-blend-mode: overlay;
     height: auto;
     padding: 5% 0;
+    color: rgb(63, 63, 63);
 }
 .services h1 {
     padding-top: 5%;
@@ -291,17 +292,9 @@ body {
     flex-direction: column;
     background-color: #fefff3;
     width: 100%;
-    padding-top: 5%;
     padding-bottom: 5%;
-    
+    color: rgb(63, 63, 63);
 }
-/*
-.reviewPhoto1 {
-    margin-left: 10%;
-}
-.reviewPhoto2 {
-    margin-left: 80%;
-}*/
 
 .profile-small {
     max-width: 6rem;
