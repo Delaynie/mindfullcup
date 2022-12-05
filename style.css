@@ -581,14 +581,17 @@ input {
 /* mobile welcome */
 .welcome {
     flex-direction: column;
+    padding-bottom: 15%;
 }
 .welcome h1 {
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
+    padding-bottom: 3%;
 }
 .welcome p {
-    margin: auto;
-    padding-bottom: 10%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* mobile about */
