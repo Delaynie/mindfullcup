@@ -207,8 +207,8 @@ body {
 
 /* --------- About section --------- */
 .about {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
     flex-direction: row;
     background-image: linear-gradient(rgb(255, 253, 238), rgba(130, 41, 165, 0.459));
 }
@@ -343,6 +343,7 @@ body {
     background-color: transparent;
     width: 100%;
     color: rgb(63, 63, 63);
+    padding-bottom: 6%;
 }
 
 .reviewH {
@@ -608,6 +609,8 @@ input {
 /* mobile about */
 .about {
     flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .about-img {
@@ -618,7 +621,7 @@ input {
 }
 
 .about-text h2 {
-    padding-top: 5%;
+    padding-top: 8%;
 }
 
 /* mobile services */
@@ -658,6 +661,10 @@ input {
     padding-bottom: 12%;
 }
 
+.reviews {
+    padding-bottom: 8%;
+}
+
 /* Mobile Coming Soon Form */
 
 
@@ -666,7 +673,7 @@ input {
   }
 
   #contact textarea {
-      width: 265px;
+      width: 280px;
   }
 
   .button-solid, .submitBtn {
