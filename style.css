@@ -504,6 +504,72 @@ input {
     box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.2), 0 30px 20px -5px rgba(0, 0, 0, 0.2);
 }
 
+/* --------- checkbox css ---------- */
+.container {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 100%;
+    right: 49%;
+    height: 30px;
+    width: 30px;
+    background-color: #fefff3;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: #ecece2;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: green;
+  }
+  
+  /* checkmark/indicator */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 
 /* --------- Promise --------- */
 .promise {
