@@ -585,9 +585,11 @@ input {
 }
 .welcome h1 {
     margin: auto;
+    padding: 5%;
     text-align: center;
 }
 .welcome p {
+    justify-content: center;
     margin: auto;
 }
 
@@ -625,11 +627,11 @@ input {
 }
 
 .servicePaddingH {
-    padding-top: 16%;
+    padding-top: 20%;
 }
 
 .servicePaddingP {
-    padding-bottom: 12%;
+    padding-bottom: 16%;
 }
 
 /* Mobile cards */
