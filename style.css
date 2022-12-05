@@ -672,7 +672,7 @@ input {
     width: 250px;
   }
 
-  #contact textarea {
+  #contact .email-signup textarea {
       width: 280px;
   }
 
