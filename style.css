@@ -336,15 +336,21 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 3%;
-}
-    
-    
+}  
 
 .reviews {
     flex-direction: column;
     background-color: transparent;
     width: 100%;
     color: rgb(63, 63, 63);
+}
+
+.reviewH {
+    padding-top: 8%;
+}
+.reviewP {
+    padding-bottom: 5%;
+    font-size: 30px;
 }
 
 .fadeReviews {
@@ -645,18 +651,25 @@ input {
     padding-bottom: 6%;
 }
 
+.reviewH {
+    padding-top: 15%;
+}
+.reviewP {
+    padding-bottom: 12%;
+}
+
 /* Mobile Coming Soon Form */
 
 
-  .email-signup input, #contact .email-signup input, .submitBtn {
+  .email-signup input, #contact .email-signup input {
     width: 250px;
   }
 
   #contact textarea {
-      width: 250px;
+      width: 265px;
   }
 
-  .button-solid {
+  .button-solid, .submitBtn {
     border-left: 1px solid green;
     border-right: 1px solid green;
     border-top: 2px solid green;
