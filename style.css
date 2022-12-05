@@ -522,6 +522,9 @@ body {
     margin: auto;
     padding: 5%;
 }
+.service-left {
+    margin-bottom: 8%;
+}
 .services {
     background-position: right;
     height: auto;
@@ -530,7 +533,6 @@ body {
 /* Mobile cards */
 .card {
     padding-bottom: 6%;
-    margin-bottom: 5%;
 }
 
 /* Mobile Coming Soon Form */
